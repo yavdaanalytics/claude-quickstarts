@@ -1,5 +1,23 @@
 # Claude Quickstarts Development Guide
 
+Follow the repository engineering rules in `AGENTS.md`.
+
+For non-trivial implementation work:
+
+User Story
+→ Acceptance Criteria
+→ Plan
+→ GitHub Sub-Issues
+→ Implementation
+→ Tests
+→ Verification
+→ Pull Request
+
+Do not declare work DONE unless the Definition of Done in `AGENTS.md`
+is satisfied.
+
+Load detailed documentation only when relevant to the current task.
+
 ## Conventions (all quickstarts)
 
 - Name Anthropic SDK client instances `client` — e.g. `const client = new Anthropic();` in TypeScript, `client = Anthropic()` in Python. This applies to source files and code snippets in READMEs and guides alike.
